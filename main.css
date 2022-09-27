@@ -1,0 +1,66 @@
+a,
+h1,
+h2,
+h3,
+div,
+body,
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#nav {
+    background-color: rgb(234, 186, 75);
+    padding: 20px;
+}
+
+#nav h1 {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#nav a {
+    float: right;
+    padding-right: 15px;
+    font-size: 20px;
+    margin-top: -20px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#parent {
+    clear: both;
+    text-align: center;
+}
+
+#container {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.box {
+    border: rgb(234, 186, 75) solid;
+    border-radius: 5px;
+    padding: 20px;
+    height: 400px;
+    width: 300px;
+    margin-right: 10px;
+    margin-top: 10px;
+    float: left;
+}
+.box h2 {
+ text-align: left;
+ font-size: 30px;
+}
+.box p {
+    text-align: left;
+    font-size: 20px;
+}
+.box a {
+    color:#ffffff;
+    background-color:  rgb(234, 186, 75);
+    border: rgb(234, 186, 75) solid;
+    border-radius: 5px;
+     padding: 5px 80px 5px 80px;
+}
